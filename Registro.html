@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./CSS/Style.css">
+</head>
+<body>
+    <nav>
+        <center>
+        <a href="Inicio.html">Inicio</a>
+        <a href="Nosotros.html">Nosotros</a>
+        <a href="Servicios.html">Servicios</a>
+        <a href="Registro.html">Registro</a>
+        <a href="Contacto.html">Contacto</a>
+        </center>
+    </nav>
+
+
+<form class="FormDatos" action="Resultado.html" method="post" id="Formulario">
+    <h2 class="Titulo">Página de Registro</h2>
+    <label for="nom">Primer Nombre:</label>
+    <input class="inputs" type="text" name="nom" id="nom" placeholder="nombre">
+
+    <label for="ap">Primer Apellido:</label>
+    <input class="inputs" type="text" name="ap" id="ap" placeholder="apellido">
+
+    <label for="">Genero:</label>
+    <input class="Genero" type="checkbox" name="F" id="F">
+    <label for="F">Femenino</label>
+    <input class="Genero" type="checkbox" name="M" id="M">
+    <label for="M">Masculino</label>
+
+    <label for="correo">Gmail:</label>
+    <input class="inputs" type="email" name="correo" id="correo" placeholder="@gmail.com">
+
+    <label for="nac">Fecha de Nacimiento:</label>
+    <input class="inputs" type="date" name="nac" id="nac">
+
+    <label for="Dir">Dirección:</label>
+    <textarea class="inputs" id="Dir" cols="50" rows="11"></textarea>
+    <input class="enviar" type="submit" value="Subir">
+</form>
+
+</body>
+</html>

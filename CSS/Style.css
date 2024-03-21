@@ -1,0 +1,35 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.FormDatos{
+    width: 400px;
+    padding: 50px;
+    margin: auto;
+    background-color: rgb(157, 157, 119);
+    border-radius: 20px;
+    margin-top: 60px;
+    border: 5px solid rgb(125, 125, 50);
+}
+.Titulo{
+    font-size: 35px;
+    color: rgb(65, 64, 35);
+}
+.inputs{
+    padding: 8px;
+    width: 370px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    background-color: rgb(249, 249, 233);
+    border: 2px solid rgb(125, 125, 50);
+}
+.enviar{
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 8px;
+    margin-left: 160px;
+    background-color: rgb(232, 253, 216);
+    border: 2px solid rgb(65, 64, 35);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
