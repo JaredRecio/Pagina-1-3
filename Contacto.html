@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./CSS/Style.css">
 </head>
 <body>
     <nav>
@@ -16,7 +17,21 @@
         </center>
     </nav>
 
-<h2>Página de Contacto</h2>
+    <form class="FormDatos" action="Resultado.html" method="post" id="Formulario">
+        <h2 class="Titulo">Página de Contacto</h2>
+        <label for="nom">Nombre:</label>
+        <input class="inputs" type="text" name="nom" id="nom" placeholder="nombre">
+    
+        <label for="correo">Gmail:</label>
+        <input class="inputs" type="email" name="correo" id="correo" placeholder="@gmail.com">
+    
+        <label for="tel">Numero de Telefono:</label>
+        <input class="inputs" type="tel"  maxlength="10" name="tel" id="tel" placeholder="Telefono" pattern="[0-9]{10}" required/>
+    
+        <label for="Dir">Mensaje:</label>
+        <textarea class="inputs" id="Dir" cols="50" rows="11" placeholder="Mensaje"></textarea>
+        <input class="enviar" type="submit" value="Subir">
+    </form>
 
 
 </body>
